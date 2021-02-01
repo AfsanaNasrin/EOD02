@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "EOD">
+
+   <test name = "LoginModuleTest">
+      <classes>
+         <class name = "com.nanosoft.EOD.Test.LoginTest" />
+      </classes>
+   </test>
+   
+   
+   <test name = "PIOFloodFormTest">
+      <classes>
+         <class name = "com.nanosoft.EOD.Test.PIOFloodFormTest" />
+      </classes>
+   </test>
+   
+</suite>

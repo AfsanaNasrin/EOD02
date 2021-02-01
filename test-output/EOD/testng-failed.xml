@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EOD]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PIOFloodFormTest(failed)">
+    <classes>
+      <class name="com.nanosoft.EOD.Test.PIOFloodFormTest">
+        <methods>
+          <include name="FloodFormList"/>
+        </methods>
+      </class> <!-- com.nanosoft.EOD.Test.PIOFloodFormTest -->
+    </classes>
+  </test> <!-- PIOFloodFormTest(failed) -->
+</suite> <!-- Failed suite [EOD] -->
