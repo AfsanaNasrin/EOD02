@@ -7,9 +7,9 @@
       </classes>
    </test>
    
-   <test name = "PIOFloodFormTest">
+   <test name = "ShelterCenterSituation">
       <classes>
-         <class name = "com.nanosoft.EOD.Test.PIOFloodFormTest" />
+         <class name = "com.nanosoft.EOD.Test.ShelterCenterSituation" />
       </classes>
    </test>
    

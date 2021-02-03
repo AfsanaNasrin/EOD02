@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-03T11:09:00 BDT" name="EOD" finished-at="2021-02-03T11:09:41 BDT" duration-ms="41018">
+  <suite started-at="2021-02-03T11:14:30 BDT" name="EOD" finished-at="2021-02-03T11:14:43 BDT" duration-ms="12631">
     <groups>
     </groups>
-    <test started-at="2021-02-03T11:09:00 BDT" name="LoginModuleTest" finished-at="2021-02-03T11:09:12 BDT" duration-ms="11655">
+    <test started-at="2021-02-03T11:14:30 BDT" name="LoginModuleTest" finished-at="2021-02-03T11:14:43 BDT" duration-ms="12446">
       <class name="com.nanosoft.EOD.Test.LoginTest">
-        <test-method signature="logintest()[pri:0, instance:com.nanosoft.EOD.Test.LoginTest@55740540]" started-at="2021-02-03T11:09:00 BDT" name="logintest" finished-at="2021-02-03T11:09:12 BDT" duration-ms="11597" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:com.nanosoft.EOD.Test.LoginTest@55740540]" started-at="2021-02-03T11:14:30 BDT" name="logintest" finished-at="2021-02-03T11:14:43 BDT" duration-ms="12384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.nanosoft.EOD.Test.LoginTest -->
     </test> <!-- LoginModuleTest -->
-    <test started-at="2021-02-03T11:09:12 BDT" name="PIOFloodFormTest" finished-at="2021-02-03T11:09:41 BDT" duration-ms="29224">
-      <class name="com.nanosoft.EOD.Test.PIOFloodFormTest">
-        <test-method signature="FloodFormList()[pri:0, instance:com.nanosoft.EOD.Test.PIOFloodFormTest@61d6015a]" started-at="2021-02-03T11:09:12 BDT" name="FloodFormList" finished-at="2021-02-03T11:09:41 BDT" duration-ms="29213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FloodFormList -->
-      </class> <!-- com.nanosoft.EOD.Test.PIOFloodFormTest -->
-    </test> <!-- PIOFloodFormTest -->
+    <test started-at="2021-02-03T11:14:43 BDT" name="ShelterCenterSituation" finished-at="2021-02-03T11:14:43 BDT" duration-ms="2">
+    </test> <!-- ShelterCenterSituation -->
   </suite> <!-- EOD -->
 </testng-results>
