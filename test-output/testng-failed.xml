@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [EOD]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="PIOFloodFormTest(failed)">
+  <test thread-count="5" name="ShelterCenterSituation(failed)">
     <classes>
-      <class name="com.nanosoft.EOD.Test.PIOFloodFormTest">
+      <class name="com.nanosoft.EOD.Test.ShelterCenterSituation">
         <methods>
-          <include name="FloodFormList"/>
+          <include name="SheltercenterSituationForm"/>
         </methods>
-      </class> <!-- com.nanosoft.EOD.Test.PIOFloodFormTest -->
+      </class> <!-- com.nanosoft.EOD.Test.ShelterCenterSituation -->
     </classes>
-  </test> <!-- PIOFloodFormTest(failed) -->
+  </test> <!-- ShelterCenterSituation(failed) -->
 </suite> <!-- Failed suite [EOD] -->

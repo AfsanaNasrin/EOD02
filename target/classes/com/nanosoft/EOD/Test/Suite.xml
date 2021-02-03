@@ -1,16 +1,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name = "EOD">
+<suite name="EOD">
 
-   <test name = "LoginModuleTest">
-      <classes>
-         <class name = "com.nanosoft.EOD.Test.LoginTest" />
-      </classes>
-   </test>
-   
-   <test name = "ShelterCenterSituation">
-      <classes>
-         <class name = "com.nanosoft.EOD.Test.ShelterCenterSituation" />
-      </classes>
-   </test>
-   
+	<test name="LoginModuleTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="ShelterCenterSituation">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.ShelterCenterSituation" />
+		</classes>
+	</test>
+
 </suite>

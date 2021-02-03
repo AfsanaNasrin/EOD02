@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-EOD" class="show-methods passed suite-EOD"> (show)</a> <!-- show-methods passed suite-EOD -->
                     </span>
                     <div class="method-list-content passed suite-EOD">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EOD" title="com.nanosoft.EOD.Test.ShelterCenterSituation" class="method navigator-link" hash-for-method="SheltercenterSituationForm">SheltercenterSituationForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-EOD" title="com.nanosoft.EOD.Test.LoginTest" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
@@ -130,6 +135,21 @@
                   <a name="logintest">
                   </a> <!-- logintest -->
                   <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EOD-class-passed -->
+          <div class="suite-EOD-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nanosoft.EOD.Test.ShelterCenterSituation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SheltercenterSituationForm">
+                  </a> <!-- SheltercenterSituationForm -->
+                  <span class="method-name">SheltercenterSituationForm</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,16 +214,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logintest')
-data.setCell(0, 2, 'com.nanosoft.EOD.Test.LoginTest')
-data.setCell(0, 3, 12384);
+data.setCell(0, 1, 'SheltercenterSituationForm')
+data.setCell(0, 2, 'com.nanosoft.EOD.Test.ShelterCenterSituation')
+data.setCell(0, 3, 16781);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'logintest')
+data.setCell(1, 2, 'com.nanosoft.EOD.Test.LoginTest')
+data.setCell(1, 3, 12273);
 window.suiteTableData['EOD']= { tableData: data, tableDiv: 'times-div-EOD'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-EOD">
               </div> <!-- times-div-EOD -->
             </div> <!-- times-div -->
@@ -233,6 +257,13 @@ return data;
               <div class="test-method">
                 <span class="method-name">logintest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nanosoft.EOD.Test.ShelterCenterSituation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SheltercenterSituationForm</span>
+                <span class="method-start">12419 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
