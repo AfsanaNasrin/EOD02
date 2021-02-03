@@ -9,7 +9,7 @@ public class DriverManager {
   
 	static {
 
-		System.setProperty("webdriver.chrome.driver", "F:\\Afsan\\AfsanaBITM+LEADS EX\\Selenium Files\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Afsan\\Selenium Files\\chromedriver_win32\\chromedriver.exe");
 	}
 	
 	public static WebDriver driver=new ChromeDriver();

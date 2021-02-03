@@ -1,0 +1,11 @@
+ <test name = "PIOFloodFormTest">
+      <classes>
+         <class name = "com.nanosoft.EOD.Test.PIOFloodFormTest" />
+      </classes>
+   </test>
+   
+      <test name = "ShelterCenterSituation">
+      <classes>
+         <class name = "com.nanosoft.EOD.Test.ShelterCenterSituation" />
+      </classes>
+   </test>

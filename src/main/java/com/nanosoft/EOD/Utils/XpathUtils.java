@@ -15,12 +15,12 @@ public class XpathUtils {
 		public static final String FindFloodForm="/html/body/app-root/admin-comp/div/div/nav/app-navmainmenu/app-navmenuitem[15]/div/a/span";
 		
 
-		 public static final String disasternameSelect="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[1]/mat-form-field/div/div[1]/div";
-         public static final String disasternameClick="/html/body/div[2]/div[2]/div/div/div/mat-option[3]";
+		 public static final String disasternameSelect="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[1]/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span";
+         public static final String disasternameClick="//*[@id=\"mat-option-1\"]/span";
          public static final String WaterloggedlastIncreased="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[3]/table/tbody/tr[2]/td[4]/input";
          public static final String WaterloggedLastDecrised="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[3]/table/tbody/tr[2]/td[5]/input";
-         public static final String AffectedPopulationIncreased="//*[@id=\"mat-input-21\"]";
-         public static final String LastDeath="//*[@id=\"mat-input-24\"]";
+         public static final String AffectedPopulationIncreased="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[3]/table/tbody/tr[2]/td[9]/input";
+         public static final String LastDeath="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/mat-card-content/div[3]/table/tbody/tr[2]/td[12]/input";
          public static final String Submit="/html/body/app-root/admin-comp/div/main/div/app-fformentry/mat-card/div/button[2]/span[1]";
 	}
 }
