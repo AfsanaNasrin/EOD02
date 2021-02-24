@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-03T15:11:55 BDT" name="EOD" finished-at="2021-02-03T15:12:25 BDT" duration-ms="29247">
+  <suite started-at="2021-02-23T15:35:27 BDT" name="EOD-PIO-All Modules Test" finished-at="2021-02-23T15:36:59 BDT" duration-ms="92156">
     <groups>
     </groups>
-    <test started-at="2021-02-03T15:11:55 BDT" name="LoginModuleTest" finished-at="2021-02-03T15:12:08 BDT" duration-ms="12328">
-      <class name="com.nanosoft.EOD.Test.LoginTest">
-        <test-method signature="logintest()[pri:0, instance:com.nanosoft.EOD.Test.LoginTest@55740540]" started-at="2021-02-03T15:11:55 BDT" name="logintest" finished-at="2021-02-03T15:12:08 BDT" duration-ms="12273" status="PASS">
+    <test started-at="2021-02-23T15:35:27 BDT" name="PIOLogin" finished-at="2021-02-23T15:35:35 BDT" duration-ms="7587">
+      <class name="com.nanosoft.EOD.Test.PIOLogin">
+        <test-method signature="logintest()[pri:0, instance:com.nanosoft.EOD.Test.PIOLogin@55740540]" started-at="2021-02-23T15:35:27 BDT" name="logintest" finished-at="2021-02-23T15:35:35 BDT" duration-ms="7546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-      </class> <!-- com.nanosoft.EOD.Test.LoginTest -->
-    </test> <!-- LoginModuleTest -->
-    <test started-at="2021-02-03T15:12:08 BDT" name="ShelterCenterSituation" finished-at="2021-02-03T15:12:25 BDT" duration-ms="16792">
-      <class name="com.nanosoft.EOD.Test.ShelterCenterSituation">
-        <test-method signature="SheltercenterSituationForm()[pri:0, instance:com.nanosoft.EOD.Test.ShelterCenterSituation@61d6015a]" started-at="2021-02-03T15:12:08 BDT" name="SheltercenterSituationForm" finished-at="2021-02-03T15:12:25 BDT" duration-ms="16781" status="PASS">
+      </class> <!-- com.nanosoft.EOD.Test.PIOLogin -->
+    </test> <!-- PIOLogin -->
+    <test started-at="2021-02-23T15:35:35 BDT" name="NewDFormTest" finished-at="2021-02-23T15:36:59 BDT" duration-ms="84500">
+      <class name="com.nanosoft.EOD.Test.PioNewDFormTest">
+        <test-method signature="NewDformAdd()[pri:0, instance:com.nanosoft.EOD.Test.PioNewDFormTest@61d6015a]" started-at="2021-02-23T15:35:35 BDT" name="NewDformAdd" finished-at="2021-02-23T15:36:59 BDT" duration-ms="84496" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SheltercenterSituationForm -->
-      </class> <!-- com.nanosoft.EOD.Test.ShelterCenterSituation -->
-    </test> <!-- ShelterCenterSituation -->
-  </suite> <!-- EOD -->
+        </test-method> <!-- NewDformAdd -->
+      </class> <!-- com.nanosoft.EOD.Test.PioNewDFormTest -->
+    </test> <!-- NewDFormTest -->
+  </suite> <!-- EOD-PIO-All Modules Test -->
 </testng-results>

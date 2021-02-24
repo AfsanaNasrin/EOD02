@@ -19,8 +19,7 @@ public class LoginTest {
 	public void logintest()
 	
 	{
-		
-		
+			
 		driver =DriverManager.driver;
 		
 		driver.get(URLUtils.URL.baseURL);
@@ -29,6 +28,8 @@ public class LoginTest {
 		driver.findElement(By.xpath(XpathUtils.loginTest.UserNameX)).sendKeys("piosarankhola");
 		driver.findElement(By.xpath(XpathUtils.loginTest.PasswordX)).sendKeys("piosarankhola");
 		driver.findElement(By.xpath(XpathUtils.loginTest.Submit)).click();
+		
+		System.out.println("Logged In successfully");
 		
 	}
 }

@@ -23,12 +23,13 @@ public class ShelterCenterSituation {
 		driver = DriverManager.driver;
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(XpathUtils.ShelterCenterSituationForm.floodsituationMove)));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(XpathUtils.ShelterCenterSituationForm.MovetoshelterCentresituation)));
 		
 		driver.navigate().to(URLUtils.URL.ShelterCenterSituationFormurl);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		driver.findElement(By.xpath(XpathUtils.ShelterCenterSituationForm.ShelterSituationForm)).click();
+		//driver.findElement(By.xpath(XpathUtils.ShelterCenterSituationForm.ShelterSituationAdd)).click();
+		//Thread.sleep(6000);
 		
 		driver.findElement(By.xpath(XpathUtils.ShelterCenterSituationForm.disasterNameSelection)).click();
 		Thread.sleep(6000);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EOD-PIO]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PioSOSTest(failed)">
+    <classes>
+      <class name="com.nanosoft.EOD.Test.PioSOSFormTest">
+        <methods>
+          <include name="SOSForm"/>
+        </methods>
+      </class> <!-- com.nanosoft.EOD.Test.PioSOSFormTest -->
+    </classes>
+  </test> <!-- PioSOSTest(failed) -->
+</suite> <!-- Failed suite [EOD-PIO] -->

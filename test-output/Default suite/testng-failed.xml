@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nanosoft.EOD.Test.PIOFloodFormTest">
+      <class name="com.nanosoft.EOD.Test.PioNewDFormTest">
         <methods>
-          <include name="FloodFormList"/>
+          <include name="NewDformAdd"/>
         </methods>
-      </class> <!-- com.nanosoft.EOD.Test.PIOFloodFormTest -->
+      </class> <!-- com.nanosoft.EOD.Test.PioNewDFormTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

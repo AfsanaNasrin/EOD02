@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EOD">
+
+	<test name="DashBoardLogin">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.dashboardLogin" />
+		</classes>
+	</test>
+
+</suite>

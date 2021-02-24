@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EOD-PIO-All Modules Test">
+
+	<test name="PIOLogin">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PIOLogin" />
+		</classes>
+	</test>
+
+	<test name="NewDFormTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PioNewDFormTest" />
+		</classes>
+	</test>
+
+</suite>

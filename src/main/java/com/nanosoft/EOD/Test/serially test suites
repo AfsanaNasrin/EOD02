@@ -1,0 +1,40 @@
+	<test name="PIOLogin">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PIOLogin" />
+		</classes>
+	</test>
+	
+	
+	<test name="PioAreaTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PioAreaTest" />
+		</classes>
+	</test>
+
+
+	<test name="PioSOSTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PioSOSFormTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="PrimaryIncidentForm">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PioPrimaryIncidentForm" />
+		</classes>
+	</test>
+	
+	
+	<test name="ShelterCenterSituationTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.ShelterCenterSituation" />
+		</classes>
+	</test>
+	
+	
+	<test name="NewDFormTest">
+		<classes>
+			<class name="com.nanosoft.EOD.Test.PioNewDFormTest" />
+		</classes>
+	</test>
